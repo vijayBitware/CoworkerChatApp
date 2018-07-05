@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_video_chat_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/call_layout_gradient"
+        android:paddingBottom="30dp">
+
+        <TextView
+            android:id="@+id/callLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/Zoechat_call"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/username" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/callLabel"
+            android:layout_marginLeft="20dp"
+            android:text="Username"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/userNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_marginLeft="20dp"
+            android:text="Username"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/ring_countDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userNumber"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/local_video_view_container"
+        android:layout_width="160dp"
+        android:layout_height="284dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <!--<TextView
+            android:id="@+id/quick_tips_when_use_agora_sdk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical|start"
+            android:text="1. Default channel name is demoChannel1\n2. Waiting for remote users\n3. This demo only supports 1v1 video calling" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/camera_off"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="20"
+                android:background="@drawable/transparent_cirucle_pattern"
+                android:onClick="onLocalVideoMuteClicked"
+                android:scaleType="centerInside"
+                android:tint="@color/white"
+                android:src="@drawable/ic_visibility_off" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="20"
+                android:background="@drawable/transparent_cirucle_pattern"
+                android:onClick="onLocalAudioMuteClicked"
+                android:scaleType="centerInside"
+                android:tint="@color/black"
+                android:src="@drawable/ic_mic_off" />
+
+            <ImageView
+                android:id="@+id/accept_call"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="20"
+                android:background="@drawable/green_call_btn_cirucle_pattern"
+                android:onClick="onAcceptCall"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_call" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="20"
+                android:background="@drawable/call_btn_cirucle_pattern"
+                android:onClick="onEncCallClicked"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_call_end_black" />
+
+            <ImageView
+                android:id="@+id/volumeOff"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="20"
+                android:background="@drawable/transparent_cirucle_pattern"
+                android:onClick="onVolumeOff"
+                android:scaleType="centerInside"
+                android:tint="@color/white"
+
+                android:src="@drawable/ic_volume_off" />
+
+            <ImageView
+                android:id="@+id/switch_camera"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:background="@drawable/transparent_cirucle_pattern"
+                android:onClick="onSwitchCameraClicked"
+                android:scaleType="centerInside"
+                android:tint="@color/white"
+
+                android:src="@drawable/ic_switch_camera" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

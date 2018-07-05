@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_grey_50">#1abc9c</color>
+    <color name="md_grey_200">#3498db</color>
+    <color name="md_grey_300">#9b59b6</color>
+    <color name="md_grey_400">#34495e</color>
+    <color name="md_grey_500">#f1c40f</color>
+    <color name="md_grey_600">#e67e22</color>
+    <color name="md_black_1000">#897fba</color>
+    <color name="md_white_1000">#7bb0a6</color>
+    <color name="md_blue_grey_300">#67bdff</color>
+    <color name="md_blue_grey_400">#222222</color>
+    <color name="md_blue_grey_700">#4ae2dd</color>
+    <color name="md_blue_grey_900">#e74c3c</color>
+</resources>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01bbd4</color>
+    <color name="toolbar_color">#fff</color>
+    <color name="colorPrimaryDark">#01bbd4</color>
+    <color name="colorAccent">#01bbd4</color>
+    <!--Custom colors-->
+    <color name="btn_color">#01bbd4</color>
+    <color name="light_cyan">#d5f2ee</color>
+    <color name="selected_blue">#A6AED6F1</color>
+    <color name="link_blue">#2b9fd9</color>
+    <color name="btn_red">#f20808</color>
+    <color name="btn_green">#01bbd4</color>
+    <color name="light_gray">#bcbcbc</color>
+    <color name="light_weight_gray">#dfdfdf</color>
+    <color name="light_weight_gray_trans">#99dfdfdf</color>
+        <color name="dark_gray">#6f6f6f</color>
+    <color name="chat_gray">#eaeaea</color>
+    <color name="gray_icon">#787878</color>
+    <color name="transparent_gray">#906f6f6f</color>
+    <color name="transparent_white">#40d3d3d3</color>
+    <color name="transparent_half_white">#80ffffff</color>
+    <color name="text_color">#353535</color>
+    <color name="text_color_pre">#7b7b7b</color>
+    <color name="text_color_blue">#01bbd4</color>
+    <color name="accept_green">#7CFC00</color>
+
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="text_green">#00897b</color>
+    <color name="white_gray">#EEEEEE</color>
+    <color name="icon_colours">#fff</color>
+
+
+<!--first-->
+    <color name="themegreen">#1abc9c</color>
+    <color name="themegreendark">#179d82</color>
+    <!--second-->
+    <color name="themeblue">#3498db</color>
+    <color name="themebluedark">#2979ae </color>
+
+<!--third-->
+   <color name="themeindigo">#9b59b6</color>
+    <color name="themeindigodark">#704183</color>
+
+   <!--fourth-->
+   <color name="themegrey">#34495e</color>
+    <color name="themegreydark">#1d2935 </color>
+
+   <!--fifth-->
+   <color name="themeyellow">#f1c40f</color>
+    <color name="themeyellowdark">#c7a20c</color>
+
+   <!--sixth-->
+   <color name="themeorange">#e67e22</color>
+    <color name="themeorangedark">#b3631b</color>
+
+    <!--seventh-->
+   <color name="themepurple">#897fba</color>
+    <color name="themepurpledark">#655d89</color>
+
+    <!--eigth-->
+   <color name="themepalegreen">#7bb0a6</color>
+    <color name="themepalegreendark">#5d847d</color>
+
+    <!--ninth-->
+   <color name="themelightblue">#67bdff</color>
+    <color name="themelightbluedark">#5396c9 </color>
+
+    <!--tenth-->
+   <color name="themepink">#000000</color>
+    <color name="themepinkdark">#000000</color>
+
+    <!--eleventh-->
+   <color name="themelightgreen">#4ae2dd</color>
+    <color name="themelightgreendark">#35afab</color>
+
+    <!--twelth-->
+   <color name="themered">#e74c3c</color>
+    <color name="themereddark">#c24033</color>
+    <color name="bg_refresh">#334d5c</color>
+    <color name="new_red">#e05b48</color>
+
+
+</resources>

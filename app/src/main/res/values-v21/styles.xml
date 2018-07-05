@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/black</item>
+
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/colorPrimaryDark</item>
+        <item name="actionMenuTextColor">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themegreen</item>
+        <item name="colorPrimaryDark">@color/themegreendark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/themegreen</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themegreendark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themeblue</item>
+        <item name="colorPrimaryDark">@color/themebluedark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themebluedark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppThemeIndigo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themeindigo</item>
+        <item name="colorPrimaryDark">@color/themeindigodark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themeindigodark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppThemeGrey" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themegrey</item>
+        <item name="colorPrimaryDark">@color/themegreydark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themegreydark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppThemeYellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themeyellow</item>
+        <item name="colorPrimaryDark">@color/themeyellowdark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themeyellowdark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themeorange</item>
+        <item name="colorPrimaryDark">@color/themeorangedark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themeorangedark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppThemePurple" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themepurple</item>
+        <item name="colorPrimaryDark">@color/themepurpledark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themepurpledark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppThemePaleGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themepalegreen</item>
+        <item name="colorPrimaryDark">@color/themepalegreendark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themepalegreendark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+    </style>
+
+    <style name="AppThemelightBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themelightblue</item>
+        <item name="colorPrimaryDark">@color/themelightbluedark</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themelightbluedark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+
+    <style name="AppThemePink" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themepink</item>
+        <item name="colorPrimaryDark">@color/themepinkdark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themepinkdark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+
+    <style name="AppThemelightGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themelightgreen</item>
+        <item name="colorPrimaryDark">@color/themelightgreendark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themelightgreendark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+
+    <style name="AppThemelightRed" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themered</item>
+        <item name="colorPrimaryDark">@color/themereddark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverflowWhite</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:spinnerDropDownItemStyle">@color/light_gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionModeBackground">@color/themereddark</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/d_teal</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#000000</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="DialogThemefull" parent="android:Theme.Dialog">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>

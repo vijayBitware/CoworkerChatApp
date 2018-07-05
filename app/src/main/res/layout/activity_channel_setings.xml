@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/chat_gray"
+    tools:context="com.bitware.coworker.activity.ChannelSetings">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/group_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/public_channel"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:id="@+id/public_i"
+             android:src="@drawable/checked"
+            android:layout_height="23dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/public_channel"
+            android:textSize="16sp"
+                android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/public_channel_text"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/private_channel"
+
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:id="@+id/private_i"
+            android:src="@drawable/unchecked"
+            android:tint="@color/colorPrimary"
+
+            android:layout_height="23dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/private_channel"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/private_channel_text"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/link"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/t.me"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:hint="@string/linkk"
+                android:textColorHint="@color/grey"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/channel_textt"
+        android:textColor="@color/dark_gray"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

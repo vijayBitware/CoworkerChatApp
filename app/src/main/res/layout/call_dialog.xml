@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/voice_call"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/voice_Call"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_call_color"
+            android:tint="@color/gray_icon"
+            android:layout_gravity="center"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/voice_call"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/video_call"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/video_Call"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_videocam"
+            android:tint="@color/gray_icon"
+
+            android:layout_gravity="center"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/video_call"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

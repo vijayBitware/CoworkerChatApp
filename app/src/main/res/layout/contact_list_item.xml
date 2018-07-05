@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:id="@+id/img_view"
+        android:layout_height="60dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/contact_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:civ_border_width="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="1"
+                android:textColor="@color/white"
+                android:id="@+id/text_name_per"
+                android:textSize="24sp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/remove_view_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/cirucle_pattern"
+            android:padding="2dp"
+            android:visibility="gone"
+            android:tint="@color/white"
+
+            android:src="@drawable/ic_check" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img_view">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/admin"
+            android:singleLine="true"
+            android:text="asd"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@color/dark_gray"
+            tools:ignore="Deprecated,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/admin"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/admin"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/user_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/lastMsgTime_text"
+            android:singleLine="true"
+            android:text="xfcsd"
+            android:textColor="@color/light_gray"
+            tools:ignore="Deprecated,RtlHardcoded" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:id="@+id/lock_status"
+            android:layout_height="15dp"
+            android:visibility="gone"
+            android:tint="@color/grey"
+            android:src="@drawable/ic_lock_white"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

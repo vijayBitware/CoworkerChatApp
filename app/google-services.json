@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "906971921043",
+    "firebase_url": "https://coworker-812e4.firebaseio.com",
+    "project_id": "coworker-812e4",
+    "storage_bucket": "coworker-812e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906971921043:android:25c87ac5976ac0ff",
+        "android_client_info": {
+          "package_name": "com.bitware.coworker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906971921043-6cc8iqmragcib071r45b9nr2q5guaujc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQks_rxIxCAKUr1lDxo9GcDA5wxhGeJFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

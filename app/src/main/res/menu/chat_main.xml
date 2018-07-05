@@ -1,0 +1,92 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bitware.coworker.MainActivity">
+
+    <!-- <item
+         android:id="@+id/new_msg"
+         android:orderInCategory="100"
+         android:title="@string/new_msg"
+         app:showAsAction="never" />-->
+<!--    <item
+        android:id="@+id/update_status"
+        android:orderInCategory="100"
+        android:title="@string/update_status"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/new_group"
+        android:orderInCategory="100"
+        android:title="@string/new_group"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/new_channel"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="@string/new_channel"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/new_broadcast"
+        android:orderInCategory="100"
+android:visible="false"
+        android:title="@string/new_broadcast"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/update_profile"-->
+        <!--app:showAsAction="never" />-->
+
+
+    <item
+        android:id="@+id/web"
+        android:orderInCategory="103"
+        android:visible="true"
+        android:title="@string/web" />
+
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+
+
+    <!--<item-->
+        <!--android:id="@+id/notification_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/notification_settings" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/download_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/auto_down" />-->
+    <item
+        android:id="@+id/starred_msgs"
+        android:orderInCategory="102"
+        android:title="@string/show_starred" />
+
+
+    <!--<item-->
+        <!--android:id="@+id/privacy_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/privacy_settings" />-->
+
+
+    <item
+        android:id="@+id/contact_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <!--<item
+        android:id="@+id/add_contact"
+        android:icon="@drawable/ic_chat"
+        android:orderInCategory="100"
+        android:title="@string/add_contact"
+        app:showAsAction="always|collapseActionView" />-->
+</menu>

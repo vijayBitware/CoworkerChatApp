@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.bitware.coworker.activity.UserDetails">
+
+    <include layout="@layout/content_scrolling_channel" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/user_image"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="@color/light_cyan"
+                android:scaleType="centerCrop" />
+
+            <ProgressBar
+                android:id="@+id/profile_image_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+
+            <!--<ImageView-->
+            <!--android:layout_width="45dp"-->
+            <!--android:id="@+id/grp_tool_back"-->
+            <!--android:src="@drawable/ic_arrow_white"-->
+            <!--android:layout_height="45dp" />-->
+            <!--<ImageView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:layout_marginRight="7dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:id="@+id/grp_name_edit"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:src="@drawable/ic_mode_edit"-->
+            <!--android:layout_gravity="right"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:text="Attop Warriorz"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/grp_name"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_toLeftOf="@+id/grp_name_edit"-->
+            <!--android:layout_toRightOf="@+id/tool_back"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/grp_created_details"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Created by Ajith Dx Uber"-->
+            <!--android:textSize="14dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:layout_toRightOf="@+id/tool_back"-->
+            <!--android:layout_toLeftOf="@+id/grp_name_edit"-->
+
+            <!--android:layout_below="@+id/grp_name"/>-->
+
+
+            <!--</RelativeLayout>-->
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
